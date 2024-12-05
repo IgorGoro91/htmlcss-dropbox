@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* outline: 1px solid black; */
+    outline: 1px solid black;
     font-family: sans-serif;
 }
 
@@ -37,9 +37,13 @@ nav ul li a{
     
 }
 .btn_blu{
-    background-color: #0061FE;
+    background-color: blue;
     padding:5px 10px;
     color: white;
+    
+}
+.btn_blu:hover{
+    background-color: rgb(30, 80, 247);
 }
 
 nav ul{
@@ -58,11 +62,18 @@ nav ul{
     font-size: 30px;
     
 }
+.head_info{
+    height: 500px;
+    width: 1200px;
+    margin: auto;
+}
 .backgraund{
     width: 100%;
     height: 500px;
-    padding: 0 20%;
+    
+    padding: 0 10%;
     background-color: lightblue;
+    
 }
 
 .gruppo1{
@@ -122,21 +133,32 @@ nav ul{
     align-items: center;
     justify-content: center;
     border-bottom: 1px solid grey;
+    text-indent: -0,7rem;
+    
+    
+}
+.gruppo__singolo1,
+.gruppo__singolo2,
+.gruppo__singolo3 i{
+    margin-right: 5px;
+    
+    
 }
 .gruppo__info1,
 .gruppo__info2,
 .gruppo__info3{
     width: 300px;
     height: 850px;
-    border:1px solid grey; 
+    border:1px solid grey;
+     
 }
 .quadrato1, .quadrato2, .quadrato3, .quadrato4{
     display: flex;
     flex-direction: column;
+    
+    
     gap: 20px;
     padding: 20px 15px;
-    
-        
 }
 .quadrato3 hr{
     width: 50px;
@@ -209,6 +231,9 @@ nav ul{
     color: black; 
     border: 1px solid black;
 }
+.btn_white:hover{
+    background-color: rgb(228, 218, 218);
+}
 /* <!-- foto con text          --> */
 
 .box1, .box2, .box3, .box4, .box5, .box6{
@@ -267,8 +292,11 @@ footer{
     margin:  auto;
 }
 .barra hr{
-    width: 10%;
+    width: 15%;
 }
 .selettore{
     margin: 30px 0;
+}
+.fa-earth-americas{
+    color: white;
 }
