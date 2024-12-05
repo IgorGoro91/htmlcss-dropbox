@@ -47,12 +47,12 @@ nav ul{
 /* <!-- iformazioni main  --> */
 
 
-.titolo__main{
+.titolo_principale{
     height: 500px;
     background-color: #B4D0E6;
 }
 
-.titolo__grande{
+.titolo_grande{
     padding-top: 30px;
     font-size: 30px;
 }
@@ -91,13 +91,13 @@ nav ul{
 }
 .container2{
     padding: 50px 0;
-    width: 1100px;
+    width: 1000px;
     margin: auto;
 }
 
 /* <!-- continetore 3 con con iformazioni          --> */
 .container3{
-    width: 1100px;
+    width: 1000px;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -143,7 +143,7 @@ nav ul{
 /* <!-- gruppo 4 orizontale --> */
 
 .gruppo__info4{
-    width: 1100px;
+    width: 1000px;
     height: 200px;
     
     margin: 50px auto;
@@ -175,7 +175,7 @@ nav ul{
 /* <!-- metta della pagina................         --> */
 
 .partner{
-    width: 700px;
+    width: 650px;
     height: 700px;
             
 }
@@ -190,7 +190,7 @@ nav ul{
     width: 60%;
 }
 .titolo__partner{
-    width: 1100px;
+    width: 1000px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -212,7 +212,7 @@ nav ul{
 }
 .container1_x3,
 .container2_x3{
-    width: 1100px;
+    width: 1000px;
     margin: auto;
     display: flex;
     justify-content: space-between; 
@@ -220,4 +220,14 @@ nav ul{
 }
 .container2_x3{
     margin-top: 50px;
+}
+.container2 .scopri{
+    padding: 50px 0;
+}
+
+/* <!-- footer della pagina .....     --> */
+
+footer{
+    height: 500px;
+    background-color: grey;
 }
