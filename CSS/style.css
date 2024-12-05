@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* outline: 1px solid black; */
+    outline: 1px solid black;
     font-family: sans-serif;
 }
 
@@ -170,4 +170,54 @@ nav ul{
     display: flex;
     justify-content: space-between;
     padding: 20px;
+}
+
+/* <!-- metta della pagina................         --> */
+
+.partner{
+    width: 700px;
+    height: 700px;
+            
+}
+.titolo{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 50px;
+}
+.titolo button{
+    width: 60%;
+}
+.titolo__partner{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.btn_white{
+    background-color: white;
+    padding:5px 10px;
+    color: black; 
+    border: 1px solid black;
+}
+/* <!-- foto con text          --> */
+
+.box1, .box2, .box3, .box4, .box5, .box6{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.container1_x3,
+.container2_x3{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between; 
+     
+}
+.container2_x3{
+    margin-top: 50px;
 }
