@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 1px solid black;
+    /* outline: 1px solid black; */
     font-family: sans-serif;
 }
 
@@ -11,11 +11,17 @@
 
 header{
     padding: 20px;
+    background-color: white;
+    border-bottom: 1px solid grey;
+    position: sticky;
+    top: 0;
 }
 header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+    position: relative
 }
 header nav > div{
     display: flex;
@@ -26,6 +32,22 @@ header nav > div ul{
     display: flex;
     gap: 10px;
 }
+header nav > div li::after{
+    content: "";
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: green;
+    transition: .3s;
+
+}
+header nav > div li:hover::after{
+    width: 100%;
+}
+
+
 /* header nav > div ul a{
     line-height: 100px;
 } */
