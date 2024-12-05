@@ -10,52 +10,48 @@
 
 
 header{
-    height: 100px;
-    
-    margin: auto;
-    border-bottom: 2px solid grey;
-    background-color: white;
-    position: sticky;
-    top: 0;
-
+    padding: 20px;
 }
 header nav{
     display: flex;
     justify-content: space-between;
-    padding-top: 30px;
-    margin: 0 20px;
-    
+    align-items: center;
 }
-
+header nav > div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+header nav > div ul{
+    display: flex;
+    gap: 10px;
+}
+/* header nav > div ul a{
+    line-height: 100px;
+} */
+    
 ul li{
     list-style-type: none;
-    
 }
+
+
+    
+
 nav ul li a{
     text-decoration: none;
-    color:grey ;
+    color: black;
     
 }
 .btn_blu{
     background-color: blue;
-    padding:5px 10px;
     color: white;
-    
+    padding:10px 15px;
 }
+    
+
 .btn_blu:hover{
     background-color: rgb(30, 80, 247);
-}
-
-nav ul{
-    display: flex;
-    column-gap: 20px;
-    align-items: center;
-        
-}
-/* <!-- iformazioni main  --> */
-
-
-
+} 
 
 .titolo_grande{
     padding-top: 30px;
